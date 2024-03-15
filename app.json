@@ -1,14 +1,16 @@
 {
-  "name": "Auto Approove Bot",
-  "description": "Auto approve telegram group/channel join requests bot.",
-  "repository": "https://github.com/VJBots/VJ-Auto-Approval-Bot",
-  "logo": "https://telegra.ph/file/a782e3bbbe40df8a4bb67.jpg",
-  "keywords": [
-    "Bot",
-    "Telegram",
-    "Pyrogram"
-  ],
-  "env": {
+    "name": "Auto Approove Bot",
+    "description": "Auto approove telegram group/channel join requests bot.",
+    "keywords": [
+        "Bot",
+        "Telegram ",
+        "Pyrogram "
+    ],
+    
+    "repository": "https://github.com/ImDenuwan/Auto-Approve-Bot",
+    "logo":"https://telegra.ph/file/a782e3bbbe40df8a4bb67.jpg",   
+    
+    "env": {
     "API_ID": {
       "description": "Enter your API_ID, get it from my.telegram.org/apps",
       "required": true
@@ -45,4 +47,12 @@
       "url": "heroku/python"
     }
   ]
+}
+
+  
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
 }
