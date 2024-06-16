@@ -8,3 +8,5 @@ class Config:
     CHID = int(getenv("CHID", "-1002128064285"))
     SUDO = list(map(int, getenv("SUDO", "6815027331").split()))
     MONGO_URI = getenv("MONGO_URI", "mongodb+srv://techmonofficial:techmon123@cluster0.wo0hzaa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+
+cfg = Config()
