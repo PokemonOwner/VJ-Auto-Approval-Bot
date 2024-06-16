@@ -1,10 +1,10 @@
 from os import path, getenv
 
 class Config:
-    API_ID = int(getenv("API_ID", "0112234"))
-    API_HASH = getenv("API_HASH", "abcdefg")
-    BOT_TOKEN = getenv("BOT_TOKEN", "1234567891:AdDfgFRFVVfDEhdhyjjvjjftSEW")
-    FSUB = getenv("FSUB", "SDBotz")
-    CHID = int(getenv("CHID", "-1000112234"))
-    SUDO = list(map(int, getenv("SUDO").split()))
-    MONGO_URI = getenv("MONGO_URI", "")
+    API_ID = int(getenv("API_ID", "29554659"))
+    API_HASH = getenv("API_HASH", "7257d3b3192355ae71ada27cfdc3837c")
+    BOT_TOKEN = getenv("BOT_TOKEN", "7150586146:AAGRVQq7GnAzdknNmUl2loEgy-ubaMOKm0k")
+    FSUB = getenv("FSUB", "TechMon_UPSC")
+    CHID = int(getenv("CHID", "-1002128064285"))
+    SUDO = list(map(int, getenv("SUDO").split(6815027331)))
+    MONGO_URI = getenv("mongodb+srv://techmonofficial:techmon123@cluster0.wo0hzaa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", "")
