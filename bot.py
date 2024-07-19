@@ -8,7 +8,7 @@ from pyrogram.errors import UserNotParticipant
 from pyrogram.errors.exceptions.flood_420 import FloodWait
 from database import add_user, add_group, all_users, all_groups, users, remove_user
 from configs import cfg
-import random, asyncio
+import asyncio
 import time
 import threading
 
