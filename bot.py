@@ -192,4 +192,4 @@ async def fcast(_, m : Message):
     await lel.edit(f"✅Successfull to `{success}` users.\n❌ Faild to `{failed}` users.\n👾 Found `{blocked}` Blocked users \n👻 Found `{deactivated}` Deactivated users.")
 
 print("I'm Alive Now!")
-app.run()
+bot.run()
