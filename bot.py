@@ -8,20 +8,8 @@ from pyrogram.errors import UserNotParticipant
 from pyrogram.errors.exceptions.flood_420 import FloodWait
 from database import add_user, add_group, all_users, all_groups, users, remove_user
 from configs import cfg
-import asyncio
-from time import sleep
-from flask import Flask
-from flask_cors import CORS
-import threading
+import random, asyncio
 
-
-thread_event = threading.Event()
-
-
-def backgroundTask():
-    while thread_event.is_set():
-        print('Background task running!')
-        sleep(5)
 app = Client(
     "approver",
     api_id=cfg.API_ID,
